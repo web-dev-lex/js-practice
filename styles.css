@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 1em;
+}
