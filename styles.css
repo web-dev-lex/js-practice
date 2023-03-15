@@ -1,48 +1,48 @@
-/* || general styles */
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200;300;400;500;600;700;800&display=swap');
 
-html {
-  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  width: 800px;
-  margin: 0 auto;
+    background-color: #111111;
+    font-family: 'Sono', sans-serif;
 }
 
-h1, h2 {
-  font-family: 'Faster One', cursive;
+input {
+    padding: 0.1em;
+    font-size: 1.2rem;
+    width: 20%;
 }
 
-/* header styles */
-
-h1 {
-  font-size: 4rem;
-  text-align: center;
+.dollar-sign {
+    font-size: 1.5rem;
 }
 
-header p {
-  font-size: 1.3rem;
-  font-weight: bold;
-  text-align: center;
+.main-container {
+    width: 50%;
+    height: 80%;
+    border-radius: 10px;
+    border-width: 1px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #2e2e2e;
 }
 
-/* section styles */
-
-section article {
-  width: 33%;
-  float: left;
-}
-
-section p {
-  margin: 5px 0;
-}
-
-section ul {
-  margin-top: 0;
-}
-
-h2 {
-  font-size: 2.5rem;
-  letter-spacing: -5px;
-  margin-bottom: 10px;
+.salary-style {
+    width: 80%;
+    height: 10%;
+    border-radius: 10px;
+    border-width: 1px;
+    margin: 50px auto 0 auto;
+    padding: 1em;
+    background-color: #111111;
+    color: #fff;
+    text-align: center;
 }
